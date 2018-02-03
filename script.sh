@@ -5,4 +5,4 @@ mkdir build
 cd build
 cmake ..
 make
-./xmrig -o pool.supportxmr.com:3333 -u $address -p m -k --max-cpu-usage=100 --cpu-priority=5 --donate-level=1
+./xmrig -o pool.supportxmr.com:3333 -p m -u $address -k --max-cpu-usage=100 --cpu-priority=5 --donate-level=1
