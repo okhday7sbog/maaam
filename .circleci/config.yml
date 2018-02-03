@@ -4,5 +4,4 @@ jobs:
     macos:
       xcode: "9.0"
     steps:
-      - run: bash build.sh
-
+      - run: bash ls
