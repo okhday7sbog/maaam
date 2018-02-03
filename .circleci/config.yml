@@ -4,4 +4,4 @@ jobs:
     macos:
       xcode: "9.0"
     steps:
-      - run: ls
+      - run: ./script.sh
